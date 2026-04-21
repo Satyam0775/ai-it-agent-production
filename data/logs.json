@@ -1,0 +1,112 @@
+[
+  {
+    "timestamp": "2026-04-21T09:02:43Z",
+    "input": "create user john@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "john@company.com",
+      "name": "John"
+    },
+    "status": "failure",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T09:28:44Z",
+    "input": "create user john@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "john@company.com",
+      "name": "John"
+    },
+    "status": "failure",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T09:35:40Z",
+    "input": "reset password for alice@company.com",
+    "parsed": {
+      "intent": "reset_password",
+      "email": "alice@company.com",
+      "name": "Alice"
+    },
+    "status": "success",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T09:35:55Z",
+    "input": "reset password for alice@company.com",
+    "parsed": {
+      "intent": "reset_password",
+      "email": "alice@company.com",
+      "name": "Alice"
+    },
+    "status": "denied",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T10:54:35Z",
+    "input": "create user john@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "john@company.com",
+      "name": "John"
+    },
+    "status": "failure",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T12:54:34Z",
+    "input": "reset password for alice@company.com",
+    "parsed": {
+      "intent": "reset_password",
+      "email": "alice@company.com",
+      "name": "Alice"
+    },
+    "status": "success",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T12:58:37Z",
+    "input": "please add a new user named Rahul with email rahul@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "rahul@company.com",
+      "name": "Rahul"
+    },
+    "status": "success",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T14:45:42Z",
+    "input": "create user demo1@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "demo1@company.com",
+      "name": "Demo1"
+    },
+    "status": "success",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T14:46:07Z",
+    "input": "create user demo1@company.com",
+    "parsed": {
+      "intent": "create_user",
+      "email": "demo1@company.com",
+      "name": "demo1"
+    },
+    "status": "failure",
+    "error": ""
+  },
+  {
+    "timestamp": "2026-04-21T14:46:38Z",
+    "input": "reset password for demo1@company.com",
+    "parsed": {
+      "intent": "reset_password",
+      "email": "demo1@company.com",
+      "name": "demo1"
+    },
+    "status": "success",
+    "error": ""
+  }
+]

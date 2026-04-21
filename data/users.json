@@ -1,0 +1,27 @@
+[
+  {
+    "email": "alice@company.com",
+    "full_name": "Alice Smith",
+    "password": "Reset@123"
+  },
+  {
+    "email": "bob@company.com",
+    "full_name": "Bob Jones",
+    "password": "Welcome@123"
+  },
+  {
+    "email": "john@company.com",
+    "full_name": "John",
+    "password": "Welcome@123"
+  },
+  {
+    "email": "rahul@company.com",
+    "full_name": "Rahul",
+    "password": "Welcome@123"
+  },
+  {
+    "email": "demo1@company.com",
+    "full_name": "Demo1",
+    "password": "Reset@123"
+  }
+]
